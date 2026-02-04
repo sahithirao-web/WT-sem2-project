@@ -1,0 +1,65 @@
+<!--PERSONAL BUSINESS CARD-->
+<!--CREATE A DIGITAL BUSINESS CAED WITH NAME, TITLE, CONTACT INFO, AND PHOTO USING BASIC HTML AND CSS STYLING-->
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Business Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .card img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .card h1 {
+            margin: 10px 0;
+        }
+        .card p {
+            color: #777;
+        }
+        .card a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        .card button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/005/346/410/small/close-up-portrait-of-smiling-handsome-young-caucasian-man-face-looking-at-camera-on-isolated-light-gray-studio-background-photo.jpg" alt="Profile Picture">
+        <h1>John Doe</h1>
+        <p>Web Developer</p>
+        <p>📩: <a href="mailto:johndoe@gmail.com">jhondoe@gmail.com</a></p>
+        <p>📞: <a href="tel:9866034546">9866034546</a></p>
+        <p>🌐: <a href="htts://www.johndoe.com">www.johndoe.com</a></p>
+        <p>📍: <a href="Los Angeles">Los Angeles</a></p>
+        <button onclick="window.open('https://www.linkedin.com/in/johndoe','_blank')">Linkedin</button>
+        <button onclick="window.open('https://www.github.com/in/johndoe','_blank')">Github</button>
+        <button onclick="window.open('https://www.hackerrank.com/in/johndoe','_blank')">Hackerrank</button>
+    </div>
+</body>
+</html>
